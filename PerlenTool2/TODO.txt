@@ -1,0 +1,19 @@
+SwingUtilities
+public static final boolean isRectangleContainingRectangle(Rectangle a, Rectangle b)
+
+Many Swing components support bound properties as defined by the JavaBeans specification. In the
+java.beans package, a utility class called PropertyChangeSupport is defined to help you register
+property change listeners and fire property change events. The PropertyChangeSupport class does
+this work in a thread-safe manner that consumes a good bit of memory. The
+SwingPropertyChangeSupport class provides exactly the same set of features, but does so without
+thread-safety to reduce memory usage and increase performance. If you're building your own
+components, you can use this class instead of PropertyChangeSupport. (For more information on
+JavaBeans and bound properties, check out O'Reilly's Developing Java Beans, by Robert
+Englander.)
+
+
+Stueckliste rechts anzeigen
+
+Auswählen-/Verschieben-Werkzeug
+Ändern der aktuellen Auswahl
+Einstellbare Groesse fuer Perlen, Zahlen, Texte; Staerke fuer Linien
